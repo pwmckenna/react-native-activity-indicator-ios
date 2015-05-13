@@ -1,6 +1,6 @@
 {
   "name": "react-native-activity-indicator-ios",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ActivityIndicatorIOS wrapper that waits a second. ",
   "main": "index.js",
   "scripts": {
