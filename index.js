@@ -52,7 +52,7 @@ var ActivityIndicator = React.createClass({
             ...other
         } = this.props;
         return <ActivityIndicatorIOS
-            animating={props.animating && !this.state.waiting}
+            animating={animating && !this.state.waiting}
             {...other} />
     }
 });
