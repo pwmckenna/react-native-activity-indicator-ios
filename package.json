@@ -1,0 +1,29 @@
+{
+  "name": "react-native-activity-indicator-ios",
+  "version": "1.0.0",
+  "description": "ActivityIndicatorIOS wrapper that waits a second. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pwmckenna/react-native-activity-indicator-ios.git"
+  },
+  "keywords": [
+    "ActivityIndicatorIOS",
+    "ActivityIndicator",
+    "react-native",
+    "loading",
+    "spinner"
+  ],
+  "author": "Patrick Williams <pwmckenna@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pwmckenna/react-native-activity-indicator-ios/issues"
+  },
+  "homepage": "https://github.com/pwmckenna/react-native-activity-indicator-ios#readme",
+  "peerDependencies": {
+    "react-native": "*"
+  }
+}
