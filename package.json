@@ -13,7 +13,9 @@
   "keywords": [
     "ActivityIndicatorIOS",
     "ActivityIndicator",
+    "react-component",
     "react-native",
+    "ios",
     "loading",
     "spinner"
   ],
