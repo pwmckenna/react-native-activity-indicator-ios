@@ -47,9 +47,13 @@ var ActivityIndicator = React.createClass({
         this.stopWaiting();
     },
     render: function () {
-        var props = this.props;
-        props.animating = props.animating && !this.state.waiting;
-        return <ActivityIndicatorIOS {...props} />
+        var {
+            animating,
+            ...other
+        } = this.props;
+        return <ActivityIndicatorIOS
+            animating={props.animating && !this.state.waiting}
+            {...other} />
     }
 });
 
