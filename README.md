@@ -8,3 +8,7 @@ This wrapper will wait the second before showing the spinner.
 # Usage
 
 Same api as [ActivityIndicatorIOS](http://facebook.github.io/react-native/docs/activityindicatorios.html#content).
+
+# Acknowledgements
+
+After using [@kylemathews](https://twitter.com/kylemathews)'s [spinkit](https://github.com/KyleAMathews/react-spinkit) library for loading icons, everything else felt unpolished. I wanted to use the native iOS activity indicator, but with all the polish I had grown accustomed to. 
