@@ -2,7 +2,7 @@
   "name": "react-native-activity-indicator-ios",
   "version": "1.0.3",
   "description": "ActivityIndicatorIOS wrapper that waits a second. ",
-  "main": "index.js",
+  "main": "ActivityIndicatorIOS.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

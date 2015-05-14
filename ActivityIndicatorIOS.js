@@ -21,30 +21,30 @@ var ActivityIndicator = React.createClass({
             waiting: true
         }
     },
-    startWaiting: function () {
+    _startWaiting: function () {
         this._timeout = setTimeout(function () {
             this.setState({
                 waiting: false
             });
         }.bind(this), 1000);
     },
-    stopWaiting: function () {
+    _stopWaiting: function () {
         clearTimeout(this._timeout);
     },
     componentWillReceiveProps: function (props) {
         // if we were not animating, but we're going to,
         // we want to wait for the second to pass
         if (!this.props.animating && props.animating) {
-            this.stopWaiting();
+            this._stopWaiting();
             this.setState(this.getInitialState());
-            this.startWaiting();
+            this._startWaiting();
         }
     },
     componentDidMount: function () {
-        this.startWaiting();
+        this._startWaiting();
     },
     componentWillUnmount: function () {
-        this.stopWaiting();
+        this._stopWaiting();
     },
     render: function () {
         var {
