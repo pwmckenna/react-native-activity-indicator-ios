@@ -5,9 +5,27 @@ The native ActivityIndicatorIOS shows the spinner immediately (assuming you don'
 
 This wrapper will wait the second before showing the spinner.
 
+# Installation
+```bash
+npm install react-native-activity-indicator-ios
+```
+
+
 # Usage
 
 Same api as [ActivityIndicatorIOS](http://facebook.github.io/react-native/docs/activityindicatorios.html#content).
+
+
+```js
+var ActivityIndicatorIOS = require('react-native-activity-indicator-ios');
+// add to your render function
+React.createClass({
+  render: function () {
+    <ActivityIndicatorIOS animating={this.state.loading} />
+  }
+});
+```
+
 
 # Acknowledgements
 
