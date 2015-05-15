@@ -23,7 +23,9 @@ var ActivityIndicatorIOS = require('react-native-activity-indicator-ios');
 
 React.createClass({
   render: function () {
-    <ActivityIndicatorIOS animating={this.state.loading} />
+    return (
+      <ActivityIndicatorIOS animating={this.state.loading} />
+    );
   }
 });
 ```
