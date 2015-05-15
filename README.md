@@ -20,7 +20,7 @@ Same api as [ActivityIndicatorIOS](http://facebook.github.io/react-native/docs/a
 
 ```js
 var ActivityIndicatorIOS = require('react-native-activity-indicator-ios');
-// add to your render function
+
 React.createClass({
   render: function () {
     <ActivityIndicatorIOS animating={this.state.loading} />
