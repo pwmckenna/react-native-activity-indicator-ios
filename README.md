@@ -30,11 +30,12 @@ React.createClass({
 });
 ```
 
+## Demo
+
+![](https://cloud.githubusercontent.com/assets/295678/7669058/0c5f3726-fc13-11e4-9ed6-05fa07d3066a.gif)
+
+[appetize.io](https://appetize.io/) is magic for demos. Check it out!
 
 ## Acknowledgements
 
 After using [@kylemathews](https://twitter.com/kylemathews)'s [spinkit](https://github.com/KyleAMathews/react-spinkit) library for loading icons, everything else felt unpolished. I wanted to use the native iOS activity indicator, but with all the polish I had grown accustomed to. Many thanks for the inspiration.
-
-## Demo
-
-![](https://cloud.githubusercontent.com/assets/295678/7669058/0c5f3726-fc13-11e4-9ed6-05fa07d3066a.gif)
